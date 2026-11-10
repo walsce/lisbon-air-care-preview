@@ -71,3 +71,79 @@
 @media(max-width:1020px){.hero-grid{gap:30px}.hero h1{font-size:clamp(38px,5vw,58px)}.welcome-bottom strong{font-size:16px}.hello-marker{font-size:20px}}
 @media(max-width:800px){.hero-grid{grid-template-columns:1fr}.hero h1{font-size:clamp(39px,7.5vw,62px)}.hero-visual{max-width:580px}.situation-grid{grid-template-columns:1fr 1fr}.situation-card:last-child{grid-column:1/-1}.situation-section{padding:60px 0}}
 @media(max-width:540px){.hero h1{font-size:42px}.hero .hero-lead{font-size:14px;line-height:1.9}.hero-metadata{gap:9px}.welcome-card{transform:none;border-radius:20px}.welcome-card:hover{transform:none}.welcome-card-top{gap:5px}.hello-marker{font-size:19px}.hello-side{font-size:8px}.welcome-bottom strong{font-size:14px}.welcome-bottom small{font-size:11px}.situation-grid{grid-template-columns:1fr}.situation-card:last-child{grid-column:auto}.situation-card{padding:25px;min-height:unset}.situation-section{padding:48px 0}.situation-intro h2{font-size:34px}.section-head h2{font-size:34px}.service-card{min-height:245px}.price-card{min-height:270px}.page-hero h1{font-size:39px}}
+
+
+/* Lisbon Air Care | premium photographic brand system */
+.brand-premium{display:inline-flex;align-items:center;min-width:0}
+.brand-logo{display:block;width:272px;max-height:60px;height:auto;object-fit:contain}
+.footer .brand-logo{width:285px;max-height:70px}
+.brand-premium:hover{opacity:.92}
+.service-icon-art{display:block;width:72px;height:72px;object-fit:contain;margin-bottom:24px;flex:0 0 auto}
+.service-card:has(.service-icon-art){background:linear-gradient(155deg,#fffdf9 0%,#fff 80%);border-color:#e3e4db;min-height:312px}
+.service-card:has(.service-icon-art) h3{max-width:330px}
+.service-card:has(.service-icon-art):hover{border-color:#c79c76}
+.hero{background:linear-gradient(135deg,#092b38,#0c3340 60%,#174250)}
+.hero-grid{gap:48px}
+.hero .hero-copy{max-width:655px}
+.hero .eyebrow{color:#e1b47d}
+.hero h1 em{color:#e1b47d}
+.hero .hero-lead{font-size:16px;line-height:1.9}
+.hero-visual{align-self:stretch;display:flex;align-items:center}
+.welcome-card{width:100%;padding:12px;background:#f8f2e8;transform:rotate(.8deg);border:1px solid rgba(235,215,188,.5);box-shadow:0 34px 75px rgba(3,20,25,.3)}
+.welcome-card:hover{transform:rotate(0)}
+.welcome-card-top{padding:8px 12px 13px}
+.welcome-card .hero-room{height:440px;width:100%;object-fit:cover;object-position:center 42%;border-radius:14px;background:#ede8df;filter:saturate(.91) contrast(1.01)}
+.welcome-bottom{padding:18px 15px 13px}
+.welcome-heart{color:#a66f47;background:#eee0cf}
+.hello-marker{color:#ad7145}
+.service-photo-wrap{padding-top:42px}
+.service-photo{margin:0;position:relative;max-width:1120px;border-radius:20px;overflow:hidden;background:#eff2ef}
+.service-photo img{display:block;width:100%;height:420px;object-fit:cover;object-position:center 44%;filter:saturate(.91)}
+.service-photo figcaption{position:absolute;bottom:12px;right:14px;background:rgba(255,255,255,.88);backdrop-filter:blur(8px);border-radius:5px;padding:6px 11px;color:#3a4d54;font-size:10px}
+.photo-story{background:#f8f5ef}
+.photo-story-grid{display:grid;grid-template-columns:minmax(300px,0.95fr) minmax(360px,1fr);gap:clamp(32px,6vw,100px);align-items:center}
+.photo-story-visual{position:relative;min-height:450px}
+.photo-story-visual img{display:block;width:100%;height:565px;object-fit:cover;object-position:center 32%;border-radius:21px;filter:saturate(.92)}
+.photo-credit{position:absolute;bottom:17px;left:19px;border-radius:6px;background:rgba(255,255,255,.88);color:#425a61;font-size:10px;padding:6px 9px}
+.photo-story-copy .eyebrow{color:#b27653;margin-bottom:24px}
+.photo-story-copy h2{font-size:clamp(37px,3.5vw,57px);line-height:1.2;letter-spacing:-.056em;margin-bottom:28px}
+.photo-story-copy h2 em{font-style:normal;color:#a97550}
+.photo-story-copy p{color:#566e70;line-height:1.9;font-size:15px;max-width:550px}
+.photo-story-copy .btn{margin-top:20px}
+.situation-section{background:#f8f4ed}
+.situation-card{border-color:#e7e2d7}
+.btn-primary{background:#e1b47d;color:#0a2a37;box-shadow:0 7px 0 rgba(11,32,43,.1)}
+.btn-primary:hover{background:#efc693}
+.section-head .accent-text{color:#aa7454}
+.price-card .index{color:#b47b5d}
+.price-card .per{color:#9b7459}
+.quote-result .eyebrow{color:#dfbd84}
+.zone-pill:hover{border-color:#c4a083;background:#fff9ed}
+@media(max-width:1100px){
+  .brand-logo{width:215px}
+  .hero-grid{gap:22px}
+  .welcome-card .hero-room{height:390px}
+}
+@media(max-width:800px){
+  .brand-logo{width:230px}
+  .photo-story-grid{grid-template-columns:1fr}
+  .photo-story-visual{min-height:0;max-width:660px}
+  .photo-story-visual img{height:460px}
+  .hero-visual{max-width:650px}
+  .welcome-card .hero-room{height:480px}
+}
+@media(max-width:540px){
+  .brand-logo{width:200px}
+  .footer .brand-logo{width:260px}
+  .hero .hero-lead{font-size:14px}
+  .hero-grid{padding-top:45px}
+  .welcome-card{transform:none;padding:9px}
+  .welcome-card .hero-room{height:340px}
+  .hello-side{font-size:7px}
+  .service-card:has(.service-icon-art){min-height:280px}
+  .service-icon-art{width:61px;height:61px}
+  .photo-story-visual img{height:370px}
+  .service-photo{border-radius:12px}
+  .service-photo img{height:275px}
+  .service-photo figcaption{font-size:9px;left:8px;right:8px;bottom:8px}
+}
