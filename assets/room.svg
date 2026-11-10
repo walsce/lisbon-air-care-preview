@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="470" viewBox="0 0 620 470">
+<title>Uma sala acolhedora com ar condicionado</title>
+<desc>Uma pessoa a ler no sofá, numa sala com ar condicionado, janela ao sol, uma planta e uma pilha de livros.</desc>
+<defs><linearGradient id="wall" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#fff8ed"/><stop offset="1" stop-color="#f3e5d3"/></linearGradient><linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#bde6e7"/><stop offset="1" stop-color="#e4f6e9"/></linearGradient></defs>
+<rect width="620" height="470" rx="25" fill="url(#wall)"/>
+<path d="M0 380Q300 357 620 377V470H0Z" fill="#e9d9c6"/>
+<path d="M0 382Q310 363 620 380" fill="none" stroke="#d4bea7" stroke-width="2"/>
+<!-- Sunshine through window -->
+<rect x="406" y="66" width="156" height="249" rx="73" fill="#fff" stroke="#fffefa" stroke-width="7"/>
+<rect x="417" y="77" width="133" height="225" rx="62" fill="url(#sky)"/>
+<circle cx="486" cy="135" r="30" fill="#ffcb86"/>
+<path d="M417 248Q474 203 550 238V301H417Z" fill="#9bd3c2"/>
+<path d="M417 274Q465 240 550 260V302H417Z" fill="#6daf9f"/>
+<path d="M483 79V300" stroke="#fff" stroke-width="7"/>
+<!-- Indoor AC -->
+<rect x="65" y="79" width="250" height="70" rx="16" fill="#c8d9d4" opacity=".3"/>
+<rect x="65" y="71" width="250" height="67" rx="16" fill="#fff" stroke="#c9ded9" stroke-width="3"/>
+<path d="M85 119H293M88 132H288" stroke="#9ebbb7" stroke-width="3" stroke-linecap="round"/>
+<circle cx="290" cy="94" r="4" fill="#72cfbd"/>
+<!-- Air, drawn gently -->
+<g fill="none" stroke="#9ddad3" stroke-width="4" stroke-linecap="round" opacity=".8"><path d="M126 151q-19 17-7 31t-4 30"/><path d="M187 152q-17 20-5 33t-8 31"/><path d="M260 150q-17 22-4 36"/></g>
+<!-- Shelves and personal objects -->
+<path d="M50 255H143" stroke="#b27e61" stroke-width="11" stroke-linecap="round"/>
+<rect x="66" y="216" width="15" height="34" rx="2" fill="#b2ccad"/><rect x="84" y="222" width="17" height="28" rx="2" fill="#f9c181"/><rect x="104" y="211" width="14" height="39" rx="2" fill="#c98271"/>
+<circle cx="128" cy="242" r="7" fill="#89aeac"/>
+<!-- Soft rug -->
+<ellipse cx="296" cy="427" rx="214" ry="22" fill="#e1c8b1"/><ellipse cx="295" cy="433" rx="194" ry="12" fill="#f9eee2"/>
+<!-- Sofa -->
+<rect x="132" y="294" width="317" height="100" rx="30" fill="#83b7b1"/>
+<rect x="151" y="302" width="279" height="74" rx="22" fill="#a7d5ca"/>
+<rect x="119" y="352" width="342" height="57" rx="26" fill="#75a9a3"/>
+<rect x="118" y="334" width="50" height="69" rx="21" fill="#609a96"/>
+<rect x="411" y="334" width="52" height="69" rx="21" fill="#609a96"/>
+<rect x="143" y="397" width="15" height="22" rx="4" fill="#90715e"/>
+<rect x="419" y="397" width="15" height="22" rx="4" fill="#90715e"/>
+<rect x="166" y="312" width="65" height="65" rx="14" fill="#ebbbab" transform="rotate(-8 198 345)"/>
+<!-- Reader, a simple illustration rather than a fabricated technician -->
+<path d="M264 379q45-20 89 0l10 20H242Z" fill="#3d6676"/>
+<path d="M256 374q7-77 48-84q51 4 57 84Z" fill="#e2a382"/>
+<rect x="284" y="270" width="27" height="34" rx="13" fill="#c28c72"/>
+<ellipse cx="294" cy="257" rx="27" ry="34" fill="#cc967b"/>
+<path d="M266 257q-8-37 22-43q33-4 42 17q-14 4-18-8q-18 17-47 18Z" fill="#3d4e53"/>
+<circle cx="282" cy="257" r="1.8" fill="#3d4e53"/>
+<path d="M288 272q7 5 14 0" stroke="#965f55" stroke-width="2" stroke-linecap="round" fill="none"/>
+<path d="M270 331q28 11 42 2" stroke="#c48e76" stroke-width="16" stroke-linecap="round"/>
+<path d="M337 335q-23 24-50 8" stroke="#c48e76" stroke-width="17" stroke-linecap="round"/>
+<!-- Open book -->
+<g transform="translate(295 324) rotate(8)"><path d="M0 0Q22-6 47 0V38Q24 31 0 38Z" fill="#fff9ed"/><path d="M0 0Q-24-6-48 0V38Q-23 31 0 38Z" fill="#fbe5c6"/><path d="M0 0V38" stroke="#c9b090" stroke-width="3"/><path d="M9 13H37M10 21H33M-39 13H-12M-39 21H-13" stroke="#c4b6a0" stroke-width="2"/></g>
+<!-- House plant -->
+<ellipse cx="533" cy="424" rx="38" ry="7" fill="#cfbba6"/>
+<path d="M504 372H560L552 418H513Z" fill="#c88e72"/>
+<path d="M531 373V279M532 335Q501 314 500 276M535 325Q566 304 570 274" fill="none" stroke="#4e9a81" stroke-width="5" stroke-linecap="round"/>
+<path d="M500 282Q475 245 464 274Q472 300 501 295M564 283Q586 251 598 275Q592 298 563 294M532 282Q510 243 532 222Q552 247 532 283M502 329Q466 312 463 337Q477 360 506 345M549 330Q583 304 593 328Q584 356 550 345" fill="#86bda4"/>
+<path d="M59 443H106M520 443H570" stroke="#dbc5ae" stroke-width="3" stroke-linecap="round"/>
+</svg>
